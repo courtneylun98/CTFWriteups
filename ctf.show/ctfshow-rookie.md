@@ -165,5 +165,26 @@ The rest is mere bruteforce for the order of the digits.
 小明如愿以偿的打开了压缩包，可是眼前的文字自己只能认识FBI，其他的都不认识，而且屏幕出现了一句话，你能帮小明找到这句话的意思吗？
 
 >FBI    No under 18
-
+>
 > i was always Fond of visiting new scenes, and observing strange characters and manners. even when a mere chiLd i began my travels, and made mAny tours of discovery into foreiGn {parts and unknown regions of my native City, to the frequent alarm of my parents, and The emolument of the town-crier. as i grew into boyhood, i extended the range oF my obServations. my holiday afternoons were spent in rambles about tHe surrounding cOuntry. i made myself familiar With all its places famous in history or fable. i kNew every spot where a murder or robbery had been committed, or a ghost seen. i visited the neighboring villages, and added greatly to my stock of knowledge,By noting their habits and customs, and conversing with their sages and great men.}
+
+### Steps:
+When inspecting the document, we see that the capitalization is a bit weird. Picking out the capitalize characters and it reveals the flag.
+
+### Flag:
+> FLAG{CTFSHOWNB}
+
+
+## 杂项6
+
+### Question:
+小明的压缩包又忘记密码了？他去电脑维修店去修，人家扔出来说这个根本就没有密码，是个假密码。小明懵了，明明有密码的啊，你能帮帮小明吗？
+
+### Step:
+(The zip file opened up perfectly fine on MacOS without asking for a password)
+
+Knowing that a fake password has been set, we should check the file under a hex editor. Knowing the file signature of zip is 50 4b 01 02 (PK) and if right after 14 00 is 01 00 or 09 00 means that it is a fake encryption, we can identify the location (Byte 67) that caused the encryption. Changing the 09 back to 00 would remove it and allow us to see the txt file with the flag in it.
+
+### Flag:
+> flag{c_t_f_s_h_o_w}
+
