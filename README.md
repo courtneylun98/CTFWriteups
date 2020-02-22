@@ -6,7 +6,6 @@ Collection of writeups for challenges I've solved over time.
 Writeups will be in English only for now as I have no clue what the terminonogies are for Chinese.
 
 ## CTFs & Platforms
-***
 
 - CTF.Show
 - PicoCTF2018
