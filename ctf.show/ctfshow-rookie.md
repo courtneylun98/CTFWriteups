@@ -2,9 +2,15 @@
 
 #### This page will be a mixutre of Chinese and English just becasue the platform is in Chinese but I'm not sure on the terminologies in Chinese.
 
+Platform: [CTF.Show](https://ctf.show/)
+
+***
+
 ### 萌新认证
 
 This flag is for accessing the questions for newbies, it can only be aquired by heading to the QQ group chat and asking the group owner.
+
+***
 
 ### 萌新_密码1
 
@@ -19,7 +25,9 @@ From that we got a Base64 string, decode that and we get a string that seems lik
 Run it through a rail fence cipher decoder and you will get the flag.
 
 #### Flag:
-KEY{dffb06a33eeeb0d259c84bd8cf146d08-}
+> KEY{dffb06a33eeeb0d259c84bd8cf146d08-}
+
+***
 
 ### 萌新_密码2
 
@@ -32,5 +40,6 @@ flag格式KEY{XXXXXX}
 Looking at the hints provided in the text, it tells you that the person is tired and pressed on the keyboard randomly. Taking that as a hint and looking at the keyboard, we can see that each set of characters creates a circle around a letter. With the three letters combined, we have our flag.
 
 #### Flag:
-KEY{f w y}
+> KEY{f w y}
 
+***
