@@ -96,3 +96,43 @@ The flag is on the image.
 
 ### Flag:
 > flag{xinti_gkd}
+
+
+## 杂项1
+
+### Question:
+
+小明想给心爱的妹子表白很久，可是不知道怎么开口，你能帮帮小明吗？
+
+已知 md5(表白的话+ctf)=ed400fbcff269bd9c65292a97488168a
+
+提交flag{表白的话}
+
+### Steps:
+
+From the question, we know that the string is a md5. Run it through a cracker and we get the answer:
+
+> helloctf
+
+Going back to the hint, ("confession"+ctf)=string, remove "ctf" from the output we've got the flag.
+
+### Flag:
+> flag{hello}
+
+
+## 杂项2
+
+### Question:
+小明终于找到了萌新码，开始了自己的CTF冒险征程。
+
+工具地址：https://www.lanzous.com/i9h1lfi
+
+提交flag{XXXXX}
+
+![Rookie Misc2](image/rookie/rookie_misc2.png)
+
+### Steps:
+With the tool provided as a hint (The tool is winhex), we know that we should be looking at the image with a hex editor.
+Scrolling through the hex, the flag is found at the end of the hex.
+
+![Rookie Misc2 Flag](image/rookie/rookie_misc2_step.png)
