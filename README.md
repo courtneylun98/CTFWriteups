@@ -8,6 +8,7 @@ Writeups will be in English only for now as I have no clue what the terminonogie
 ## CTFs & Platforms
 
 - CTF.Show
+  - [Rookie Questions/萌新題](ctf.show/ctfshow-rookie.md)
 - PicoCTF2018
 - PicoCTF2019
 - OWASP Juice Shop
