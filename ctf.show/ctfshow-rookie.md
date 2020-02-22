@@ -114,7 +114,7 @@ From the question, we know that the string is a md5. Run it through a cracker an
 
 > helloctf
 
-Going back to the hint, ("confession"+ctf)=string, remove "ctf" from the output we've got the flag.
+Going back to the hint, ("confession"+ctf)=string, remove "ctf" from the output and we've got the flag.
 
 ### Flag:
 > flag{hello}
@@ -192,7 +192,7 @@ Knowing that a fake password has been set, we should check the file under a hex 
 ## 萌新专属红包题
 
 ### Steps:
-1. Using a hint given by the QQ group admin, we know that the password of the portal is admin888. (Apparently the password was paying respect to one of the most used password for all systems accross Mainland China until they promotion of online safety and secure passwords.)
+1. Using a hint given by the QQ group admin, we know that the password of the portal is admin888. (Apparently the password was paying respect to one of the most used password for all systems accross Mainland China until the promotion of online safety and secure passwords.)
 
 2. Looking at the Network Section when logging in, we can see that there is a field named "Flag" in the Response Headers of check.php. Decoding the Base64 string will give us the flag.
 
