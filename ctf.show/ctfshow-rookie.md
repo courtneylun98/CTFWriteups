@@ -89,7 +89,7 @@ Running this through a Base85 decoder and we will get the flag.
 ## 萌新 隐写3
 
 ### Question:
-![Rookie Stego](ctf.show/image/rookie/rookie_stego3.jpg)
+![Rookie Stego](image/rookie/rookie_stego3.jpg)
 
 ### Steps:
 The flag is on the image.
