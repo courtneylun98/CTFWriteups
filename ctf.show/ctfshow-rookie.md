@@ -1,4 +1,4 @@
-# CTF.Show WriteUp
+# CTF.Show - Rookie Questions (CTF秀 - 萌新题)
 
 #### This page will be a mixutre of Chinese and English just becasue the platform is in Chinese but I'm not sure on the terminologies in Chinese.
 
@@ -136,3 +136,34 @@ With the tool provided as a hint (The tool is winhex), we know that we should be
 Scrolling through the hex, the flag is found at the end of the hex.
 
 ![Rookie Misc2 Flag](image/rookie/rookie_misc2_step.png)
+
+### Flag:
+> flag{ctfshow_im_coming}
+
+
+## 萌新 杂项3
+
+### Question:
+大家好我是小萌新羽，前不久我的一个朋友给我了一张银行卡，他说里面有一大笔钱，但是他只告诉我他的生日是九七年十月一日，你能帮我猜猜他的银行卡密码是多少吗，哦对，这个朋友有个小名叫小五。
+
+flag格式：flag{银行卡密码}
+
+### Steps:
+From the question we were given 3 pieces of information, the person's birthday is 1st October, 1997, his nickname is 小五（"Five"）and we are trying to guess a bank card pin.
+
+A pin is usually 6 digits and we have 1997, 10, 01, 05 to work with, since given these numbers and the difficulty of the question, we can make a safe assumption that all four must be used. This cuts down the numbers to 97, 10, 1 and 5.
+
+The rest is mere bruteforce for the order of the digits.
+
+### Flag:
+> flag{971015}
+
+
+## 杂项5
+
+### Question:
+小明如愿以偿的打开了压缩包，可是眼前的文字自己只能认识FBI，其他的都不认识，而且屏幕出现了一句话，你能帮小明找到这句话的意思吗？
+
+>FBI    No under 18
+
+> i was always Fond of visiting new scenes, and observing strange characters and manners. even when a mere chiLd i began my travels, and made mAny tours of discovery into foreiGn {parts and unknown regions of my native City, to the frequent alarm of my parents, and The emolument of the town-crier. as i grew into boyhood, i extended the range oF my obServations. my holiday afternoons were spent in rambles about tHe surrounding cOuntry. i made myself familiar With all its places famous in history or fable. i kNew every spot where a murder or robbery had been committed, or a ghost seen. i visited the neighboring villages, and added greatly to my stock of knowledge,By noting their habits and customs, and conversing with their sages and great men.}
