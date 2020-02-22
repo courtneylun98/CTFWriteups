@@ -1,6 +1,6 @@
 # CTF.Show - Rookie Questions (CTF秀 - 萌新题)
 
-#### This page will be a mixutre of Chinese and English just becasue the platform is in Chinese but I'm not sure on the terminologies in Chinese.
+**This page will be in a mixutre of Chinese and English just becasue the platform is in Simplifed Chinese but I'm yet to be comfortable writing writeups in Chinese.**
 
 Platform: [CTF.Show](https://ctf.show/)
 
